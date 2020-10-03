@@ -1,12 +1,12 @@
 body,
 html {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vh;
 }
 .navbar {
-  background-color: black;
-  padding: 1% 0%;
-  font-size: 1.2em;
+  background-color: #099567;
+  padding: 1% 0% 1% 0%;
+  font-size: 1.2rem;
 }
 
 .navbar-brand {
@@ -16,34 +16,34 @@ html {
 .navbar-nav li a {
   color: whitesmoke;
 }
-.navbar-nav li a:hover,
-.navbar-nav li a.active {
+.navbar-expand.navbar-nav li a:hover,
+.navbar-expand.navbar-nav li a.active {
   background-color: cornsilk;
   color: black;
   transition: 0.5s;
   border-radius: 5px;
 }
 #home {
-  background: url("images/Kochi.jpg") no-repeat center center fixed;
+  background: url("images/Kochi.jpg") no-repeat center center stretch center fixed;
   display: table;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background-size: cover;
+  height: 100vh;
+  width: 100vh;
+  position: absolute;
+  background-size: stretch;
 }
 .landing-text {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  color: white;
+  color: #fff;
 }
 .landing-text h1 {
-  font-size: 600%;
-  font-weight: 700;
+  font-size: 6rem;
+  font-weight: 7em;
 }
 .landing-text h3 {
-  font-size: 200%;
-  font-weight: 300;
+  font-size: 2rem;
+  font-weight: 3em;
 }
 #btn1 {
   font-weight: bold;
@@ -52,44 +52,44 @@ html {
   padding: 100px 10px;
 }
 .padding img {
-  width: 100%;
-  height: 100%;
+  width: 100vh;
+  height: 100vh;
 }
 #fixed1 {
-  background: url("images/waterfall.jpg") no-repeat center center fixed;
+  background: url("images/waterfall.jpg") no-repeat center center stretch center fixed;
   display: table;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background-size: cover;
+  height: 100vh;
+  width: 100vh;
+  position: absolute;
+  background-size: stretch;
 }
 #fixed-text {
-  position: absolute;
-  max-width: 700px;
-  bottom: 120px;
+  position: relative;
+  max-width: 7em;
+  bottom: 1.2rem;
   right: 10px;
-  text-align: left;
-  color: black;
+  text-align: top;
+  color: #000;
   padding-left: 50px;
   padding-right: 50px;
 }
 #fixed-text:hover {
-  background-color: skyblue;
+  background-color: #647849;
   border-radius: 15px;
-  transition: 1s;
+  transition: 0.5s;
 }
 #fixed-text h1 {
-  font-size: 400%;
+  font-size: 4rem;
   font-weight: 500;
 }
 #fixed2 {
-  background: url("images/fishing_boat_at_chowara_34.jpg") no-repeat center
+  background: url("images/fishing_boat_at_chowara_34.jpg") no-repeat center center stretch
     center fixed;
   display: table;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background-size: cover;
+  height: 100vh;
+  width: 100vh;
+  position: absolute;
+  background-size: stretch;
 }
 #fixed-text2 {
   position: absolute;
@@ -201,7 +201,7 @@ footer {
   .fa {
     padding: 10px;
     font-size: 20px;
-    color: azure;
+    color: #8594;
   }
   .icon {
     max-width: 200px;
