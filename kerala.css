@@ -20,8 +20,8 @@ html {
 .navbar-expand.navbar-nav li a.active {
   background-color: cornsilk;
   color: black;
-  transition: 0.5s;
-  border-radius: 5px;
+  transition: 0.2s;
+  border-radius: 7px;
 }
 #home {
   background: url("images/Kochi.jpg") no-repeat center center stretch center fixed;
@@ -64,7 +64,7 @@ html {
   background-size: stretch;
 }
 #fixed-text {
-  position: relative;
+  position: absolute;
   max-width: 7em;
   bottom: 1.2rem;
   right: 10px;
